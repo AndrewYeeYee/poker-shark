@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-felt: #1a472a;
+	--color-felt-light: #2d5a3f;
+	--color-felt-dark: #0f2d1a;
+	--color-card-bg: #1e293b;
+	--color-card-border: #334155;
+	--color-surface: #0f172a;
+	--color-surface-light: #1e293b;
+	--color-surface-lighter: #334155;
+	--color-accent: #22d3ee;
+	--color-accent-dim: #0e7490;
+}
+
+html {
+	background-color: var(--color-surface);
+	color: #e2e8f0;
+	font-family:
+		'Inter',
+		system-ui,
+		-apple-system,
+		sans-serif;
+}
+
+body {
+	min-height: 100dvh;
+}
